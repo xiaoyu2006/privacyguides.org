@@ -52,8 +52,6 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     Proton VPN has [servers in 67 countries](https://protonvpn.com/vpn-servers) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 
-    We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
-
 1. Last checked: 2022-09-16
 
 ??? success "Independently Audited"
@@ -115,8 +113,6 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     IVPN has [servers in 35 countries](https://www.ivpn.net/server-locations) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 
-    We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
-
 1. Last checked: 2022-09-16
 
 ??? success "Independently Audited"
@@ -176,8 +172,6 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
     Mullvad has [servers in 41 countries](https://mullvad.net/servers/) (1). Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 
-    We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
-
 1. Last checked: 2023-01-19
 
 ??? success "Independently Audited"
@@ -221,6 +215,64 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 ??? info "Additional Functionality"
 
     Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
+
+### Windscribe
+
+!!! recommendation
+
+    ![Windscribe logo](assets/img/vpn/windscribe.svg#only-light){ align=right }
+    ![Windscribe logo](assets/img/vpn/windscribe-dark.svg#only-dark){ align=right }
+
+    **Windscribe** is a Canadian-based VPN provider established in 2016.
+
+    [:octicons-home-16: Homepage](https://windscribe.com){ .md-button .md-button--primary }
+    [:octicons-eye-16:](https://windscribe.com/privacy){ .card-link title="Privacy Policy" }
+    [:octicons-info-16:](https://windscribe.com/knowledge-base){ .card-link title=Documentation}
+    [:octicons-code-16:](https://github.com/windscribe){ .card-link title="Source Code" }
+
+    ??? downloads
+    
+        - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.windscribe.vpn)
+        - [:simple-appstore: App Store](https://apps.apple.com/app/id1129435228)
+        - [:simple-windows11: Windows](https://windscribe.com/vpn-for-windows)
+        - [:simple-apple: macOS](https://windscribe.com/vpn-for-mac)
+        - [:simple-linux: Linux](https://windscribe.com/guides/linux)
+
+??? success "69 Countries"
+
+    Windscribe has [servers in 69 countries](https://windscribe.com/features/large-network), as of 2022/06/01. Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
+
+??? check "Independently Audited"
+
+    Windscribe's desktop and mobile clients have been audited by TODO and published at TODO. The audit concluded:
+
+    > ?
+
+    Windscribe's current infrastructure has not been independently audited, however a pre-production audit of their upcoming infrastructure stack [has](https://github.com/privacyguides/privacyguides.org/pull/1312#issuecomment-1452262340) been completed. Their new infrastructure stack is scheduled to deploy in 2023 alongside published audits, and we will update the information here when those are made available.
+
+??? success "Open Source Clients"
+
+    As of May 2022 [Windscribe applications are now open source](https://github.com/Windscribe).
+
+??? success "Accepts Monero"
+
+    In addition to accepting credit/debit cards and PayPal, Windscribe accepts Monero, Bitcoin, and a variety of other cryptocurrencies as payment.
+
+??? success "WireGuard Support"
+
+    Windscribe [supports Wireguard](https://blog.windscribe.com/introducing-wireguard-76a1670700a6/) and it is supported by their [config generator](https://windscribe.com/features/config-generators). [WireGuard](https://www.wireguard.com) is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/), and aims to be simpler and more performant.
+
+??? success "Remote Port Forwarding"
+
+    Remote ephemeral [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is possible with a [Pro plan](https://windscribe.com/features/port-forwarding). For a permanent port forward, you need to purchase a [static IP](https://windscribe.com/staticips).
+
+??? success "Mobile Clients"
+
+    In addition to providing standard OpenVPN configuration files, Windscribe has mobile clients for [App Store](https://apps.apple.com/app/id1129435228) and [Google Play](https://play.google.com/store/apps/details?id=com.windscribe.vpn) allowing for easy connections to their servers.
+
+??? info "Additional Functionality"
+
+    Windscribe offers [R.O.B.E.R.T.](https://windscribe.com/features/robert), a customizable server-side domain and IP blocking tool. They also offer static IP addresses, team accounts, and support for two-factor authentication.
 
 ## Criteria
 
@@ -279,6 +331,7 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 - Perfect Forward Secrecy (PFS).
 - Comprehensive published security audits from a reputable third-party firm.
 - Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- We think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 ### Trust
 
