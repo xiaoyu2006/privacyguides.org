@@ -162,7 +162,7 @@ In general, we define office suites as applications which could reasonably act a
 
     **LanguageTool** is a multilingual grammar, style and spell checker that supports more than 20 languages. The software is [self-hostable](https://dev.languagetool.org/http-server), and the extensions do not send your input text to their server.
 
-     LanguageTool works with a variety of office suites, Google Documents, Word, OpenOffice and Libreoffice. It also has integration into Gmail, Outlook, Apple Mail and Thunderbird.
+     LanguageTool works with a variety of office suites: Google Documents, Word, OpenOffice and Libreoffice. It also has integration into Gmail, Outlook, Apple Mail and Thunderbird.
 
     [:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
     [:octicons-info-16:](https://languagetool.org/dev){ .card-link title=Documentation}
