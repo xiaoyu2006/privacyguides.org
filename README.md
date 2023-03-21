@@ -63,9 +63,17 @@ Our current list of team members can be found [here](https://www.privacyguides.o
 
 Copyright &copy; 2019 - 2023 [Privacy Guides contributors](https://github.com/privacyguides/privacyguides.org/graphs/contributors).
 
-Privacy Guides content is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](/LICENSE), and the underlying source code used to format and display that content on [www.privacyguides.org](https://www.privacyguides.org) is licensed under the [MIT License](/LICENSE-CODE).
+Privacy Guides content is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](/LICENSE), and the underlying source code used to format and display that content on [www.privacyguides.org](https://www.privacyguides.org) is licensed under the [MIT License](/LICENSE-CODE).
 
-[More info...](https://www.privacyguides.org/en/about/notices/#licenses)
+Generally speaking, **content** can be found in the [`/docs`](/docs), [`/theme/assets/img`](/theme/assets/img), [`/includes`](/includes), and [`/i18n`](/i18n) folders; and **source code** and configuration files can be found in the [`/config`](/config) and [`/theme`](/theme) folders, and in the root of this repository. Any source code snippets contained within documentation files are licensed under [`LICENSE-CODE`](/LICENSE-CODE). Please contact us if you require clarification on any of these terms.
+
+These licenses do not apply to any work where another license is otherwise noted.
+
+**Logos** in the [`/theme/assets/img`](/theme/assets/img) folder may not be original works of Privacy Guides and therefore cannot be (re)licensed by us. We believe that these logos obtained from third-party providers are either in the public domain or **fair use**. In a nutshell, legal [fair use doctrine](https://www.copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject for purposes of public comment. However, these logos and other images may still be subject to trademark laws in one or more jurisdictions. Before using this content, please ensure that it is used to identify the entity or organization that owns the trademark and that you have the right to use it under the laws which apply in the circumstances of your intended use. *When copying content from this website, you are solely responsible for ensuring that you do not infringe someone else's trademark or copyright.*
+
+You may comply with our license terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
+
+When you contribute to this repository you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
 ## Developing
 

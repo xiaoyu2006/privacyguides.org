@@ -9,7 +9,8 @@
 /kb /en/basics/threat-modeling/
 /:lang/kb /:lang/basics/threat-modeling/
 
-/coc/ /en/CODE_OF_CONDUCT/
+/coc /en/CODE_OF_CONDUCT/
+/license https://github.com/privacyguides/privacyguides.org/tree/main/README.md#license
 
 /team /en/about/
 /browsers /en/desktop-browsers/

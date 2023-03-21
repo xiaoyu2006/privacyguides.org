@@ -1,7 +1,5 @@
 ---
 title: "Notices and Disclaimers"
-hide:
-    - toc
 ---
 
 ## Legal Disclaimer
@@ -14,21 +12,26 @@ Privacy Guides is an open source project contributed to under licenses that incl
 
 Privacy Guides additionally does not warrant that this website will be constantly available, or available at all.
 
-## Licenses
+## Licensing Overview
 
-Unless otherwise noted, all content on this website is made available under the terms of the [Creative Commons Attribution-NoDerivatives 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE).
+!!! danger ""
 
-This does not include third-party code embedded in this repository, or code where a superseding license is otherwise noted. The following are notable examples, but this list may not be all-inclusive:
+    The following is a human-readable summary of (and not a substitute for) the [license](https://www.privacyguides.org/license).
 
-* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+**Content** on this website is released under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE). This means that you can use the human-readable content on this website for your own project, as long as you give appropriate credit to [Privacy Guides](https://www.privacyguides.org) including a link where technically possible, and you release your project under the same license. You may not do so in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides brand trademarks in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
 
-Portions of this notice itself were adopted from [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) on GitHub. That resource and this page itself are released under [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).
+The underlying **source code** used to generate this website and display that content is released under the [MIT License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
-This means that you can use the human-readable content in this repository for your own project, per the terms outlined in the Creative Commons Attribution-NoDerivatives 4.0 International Public License text. You may do so in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides branding in your own project without express approval from this project. Privacy Guides's brand trademarks include the "Privacy Guides" wordmark and shield logo.
+This does not include third-party code embedded in the Privacy Guides code repository, or code where a superseding license is otherwise noted. The following are notable examples, but this list may not be all-inclusive:
+
+* [MathJax](https://github.com/privacyguides/privacyguides.org/blob/main/theme/assets/javascripts/mathjax.js) is licensed under the [Apache License 2.0](https://github.com/privacyguides/privacyguides.org/blob/main/docs/assets/javascripts/LICENSE.mathjax.txt).
+* The [Bagnard](https://github.com/privacyguides/brand/tree/main/WOFF/bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/bagnard/LICENSE.txt).
+* The [Public Sans](https://github.com/privacyguides/brand/tree/main/WOFF/public_sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/main/WOFF/public_sans/LICENSE.txt).
+* The [DM Mono](https://github.com/privacyguides/brand/tree/main/WOFF/dm_mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/main/WOFF/dm_mono/LICENSE.txt).
 
 We believe that the logos and other images in `assets` obtained from third-party providers are either in the public domain or **fair use**. In a nutshell, legal [fair use doctrine](https://www.copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject matter for purposes of public comment. However, these logos and other images may still be subject to trademark laws in one or more jurisdictions. Before using this content, please ensure that it is used to identify the entity or organization that owns the trademark and that you have the right to use it under the laws which apply in the circumstances of your intended use. *When copying content from this website, you are solely responsible for ensuring that you do not infringe someone else's trademark or copyright.*
 
-When you contribute to this repository you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
+When you contribute to our website you are doing so under the above licenses, and you are granting Privacy Guides a perpetual, worldwide, non-exclusive, transferable, royalty-free, irrevocable license with the right to sublicense such rights through multiple tiers of sublicensees, to reproduce, modify, display, perform and distribute your contribution as part of our project.
 
 ## Acceptable Use
 
@@ -41,3 +44,7 @@ You must not conduct any systematic or automated data collection activities on o
 * Scraping
 * Data Mining
 * 'Framing' (IFrames)
+
+---
+
+*Portions of this notice itself were adopted from [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) on GitHub. That resource and this page itself are released under [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).*

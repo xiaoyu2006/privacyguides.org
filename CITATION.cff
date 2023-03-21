@@ -1,4 +1,4 @@
-# Copyright (c) 2022 Jonah Aragon <jonah@triplebit.net>
+# Copyright (c) 2022-2023 Jonah Aragon <jonah@triplebit.net>
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -30,6 +30,9 @@ authors:
   - name: The Privacy Guides team
     website: 'https://github.com/orgs/privacyguides/people'
 repository-code: 'https://github.com/privacyguides/privacyguides.org'
+license:
+  - MIT
+  - CC-BY-SA-4.0
 references:
   - authors:
     - family-names: Donath
@@ -41,16 +44,15 @@ preferred-citation:
   type: website
   title: Privacy Guides
   authors:
-    - email: jonah@privacyguides.org
-      given-names: Jonah
+    - given-names: Jonah
       family-names: Aragon
+      email: jonah@privacyguides.org
       orcid: 'https://orcid.org/0000-0001-6996-4965'
     - given-names: Daniel
       family-names: Gray
       email: dngray@privacyguides.org
-    - name: The Privacy Guides team
-      website: 'https://github.com/orgs/privacyguides/people'
-    - name: Various project contributors
+    - name: Privacy Guides Contributors
+      website: 'https://github.com/privacyguides/privacyguides.org/graphs/contributors'
   url: 'https://www.privacyguides.org'
   abstract: >-
     Privacy Guides is a socially motivated website that
@@ -64,4 +66,4 @@ preferred-citation:
     - encryption
     - website
     - markdown
-  license: "CC-BY-ND-4.0"
+  license: CC-BY-SA-4.0
