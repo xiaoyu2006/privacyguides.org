@@ -110,6 +110,7 @@ nav:
       - 'os/linux-overview.md'
       - 'os/qubes-overview.md'
     - Gevorderde onderwerpen:
+      - 'advanced/fingerprinting.md'
       - 'advanced/dns-overview.md'
       - 'advanced/tor-overview.md'
       - 'advanced/payments.md'
