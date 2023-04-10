@@ -18,7 +18,7 @@ Many non-experts will claim that using Firefox or enabling its fingerprinting re
 
 ==When you are already completely unique, becoming "more unique" is impossible.== In reality, these fingerprint resistance features are generally not meant to make your browser unidentifiable at all, they merely block tracker scripts from collecting certain metrics, which in turn *can* make your browser unidentifiable to certain—but not all—tracking scripts which rely on those metrics.
 
-## Common Metrics
+## Common metrics
 
 Your browser sends lots of data to the websites you visit, and even more data can be detected by clever tracking scripts. Some data points which—when combined—can be used to identify you include:
 
@@ -35,23 +35,29 @@ Some of these metrics are stronger or weaker than others, your browser window si
 
 Another common fingerprinting technique is "canvas fingerprinting," which uses WebGL to determine information about your graphics drivers and GPU (or CPU).[^3] In 2022 this was expanded upon in a [research paper](https://www.ndss-symposium.org/wp-content/uploads/2022-93-paper.pdf) which described methods of using canvas fingerprinting in a way which could effectively identify users with "similar hardware and software configurations, even when they are considered identical by current state-of-the-art fingerprinting algorithms." Tor [considers](https://2019.www.torproject.org/projects/torbrowser/design/#fingerprinting-linkability) canvas fingerprinting to be "the single largest fingerprinting threat browsers face today."
 
-## Types of Tracking Scripts
-
-In general, we can classify tracking software into two groups: **naive** and **advanced**. Naive trackers can be fooled by standard anti-fingerprinting techniques like Firefox's "resist fingerprinting" or Brave's fingerprint randomization features, because they acc
-
-On the other hand, advanced fingerprinting scripts can detect randomized values (this is always possible) with varying levels of sophistication. The only way to defeat advanced scripts is by blending in with a crowd of other identical looking browsers, which is no easy feat as we've already covered. We'll delve into this more in the next section.
-
-The good news is that most fingerprinting you will encounter on the internet is naive.
-
-## Anti-Fingerprinting Approaches
+## Anti-fingerprinting approaches
 
 Broadly speaking, there are two ways that browsers try to deal with fingerprinting: **Randomization** or **blocking**. There are advantages and disadvantages to both approaches, and generally they cover distinct threat models, but both approaches ultimately try and accomplish the same thing: Protecting the real value of each metric.
 
-[Brave](../desktop-browsers.md#brave) takes the **randomization** approach to fingerprinting protection by changing fingerprintable metrics in ways which are imperceptible to the person using the browser, but confusing for machines on the other end. This approach gives your browser a completely unique fingerprint, **but** that fingerprint *changes* for each website you visit, so those metrics can't be used to track you across different sites.
+[Brave](../desktop-browsers.md#brave) largely takes the **randomization** approach to fingerprinting protection by changing fingerprintable metrics in ways which are imperceptible to the person using the browser, but confusing for machines on the other end. This approach gives your browser a completely unique fingerprint, **but** that fingerprint *changes* for each website you visit, so those metrics can't be used to track you across different sites.
 
 [Firefox](../desktop-browsers.md#firefox) (especially with [Arkenfox user.js](../desktop-browsers.md#arkenfox-advanced)) and many other browsers take a more traditional approach of **blocking** access to fingerprintable metrics in the first place, and making other fingerprintable metrics non-unique so that your browser is as similar as possible to other browsers. Safari, for example, only makes a select list of system fonts available for websites to access regardless of the fonts you actually have installed.
 
-**Both** of these approaches can only fool "naive scripts," tracking scripts which are looking for the metrics which these browsers protect against. Unfortunately, due to the massive attack surface
+In reality, most modern anti-fingerprinting in browsers will use a combination of both approaches, for example Firefox's Resist Fingerprinting preference employs randomization to protect against canvas fingerprinting, but these are the general philosophies these browsers employ.
+
+## Types of tracking scripts
+
+In general, we can classify fingerprinting software into two categories: **naive** and **advanced**. 
+
+**Naive** trackers can be fooled by standard anti-fingerprinting techniques like Firefox's "resist fingerprinting" or Brave's fingerprint randomization features, because they only look for a few predetermined metrics and will blindly accept whatever values your browser provides. Thus, they are easily fooled by typical anti-fingerprinting approaches.
+
+On the other hand, **advanced** fingerprinting scripts can detect randomized values created by your browser (this is always possible) with varying levels of sophistication, going to greater lengths to fingerprint you than most anti-fingerprinting methods can protect against. The only way to defeat advanced scripts is by blending in with a crowd of other identical looking browsers, which is no easy feat as we've already covered.
+
+==The good news is that most fingerprinting scripts you will encounter on the internet are naive==. They don't bother trying to detect and bypass anti-fingerprinting methods, because they are relatively uncommon, so any anti-fingerprinting measures you can implement will work effectively towards thwarting those trackers. This is not to say that fingerprinting cannot or will not become more sophisticated and widespread in the future, but for now most standard anti-fingerprinting approaches are enough.
+
+## Blending in with a crowd
+
+If fooling basic, naive trackers isn't compelling enough for you, you have to consider an alternative approach. Standard web browsers like Brave and Firefox simply cannot protect against advanced scripts, despite claims you might hear to the contrary.
 
 ## Sources
 
