@@ -170,6 +170,14 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Learn more :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
+### Photo management
+
+<div class="grid cards" markdown>
+
+- ![Ente logo](assets/img/photo-management/ente.svg){ .twemoji } [Ente](photo-management.md#ente)
+
+</div>
+
 ### Search Engines
 
 <div class="grid cards" markdown>
