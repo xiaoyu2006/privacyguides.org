@@ -1,7 +1,9 @@
 ---
-title: Photo Management
+title: "Photo Management"
 icon: material/image
+description: Photo management and cloud storage tools that support E2EE, meaning the provider cannot access photos that you take
 ---
+Most cloud storage solutions that are aimed at photo management are not encrypted end-to-end. This means that the provider has access to all of the data you upload. We recommend some options below which use E2EE keep your private photos private, while allowing you to share them only with family and trusted people.
 
 ## ente
 
